@@ -1,0 +1,10 @@
+// wrangler.jsonc
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "in-hand", // Replace with your desired application name
+  "compatibility_date": "2026-02-08",
+  "assets": {
+    "directory": "dist",
+    "not_found_handling": "single-page-application",
+  },
+}
